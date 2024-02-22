@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/*contenedores*/
+
+.filaMedio{
+	background-color: rgb(48, 48, 48);
+	
+}
+
+
+
+.rojo {
+	background-color: rgb(0, 0, 22);
+}
+
+.carousel {
+	background-color: yellow;
+	height: 450px
+}
+
+.rosa {
+	
+	color: rgb(164, 164, 164);
+	font-size: 40px;
+	text-align: left;
+	height: 60px;
+	margin-bottom: 10px;
+}
+.rosaHover:hover{
+	color: white;
+}
+
+.imagenesPagPrin {
+	background-color: rgb(0, 0, 255);
+	height: 300px;
+	margin-left: 10px;
+	margin-right: 10px;	
+	margin-top: 10px;
+}
+
+.azul {
+	background-color: rgb(0, 0, 255);
+	height: 225px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.nombreJuego {
+	background-color: rgb(0, 255, 255);
+	height: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.verde2 {
+	background-color: rgb(0, 255, 0);
+	height: 150px;
+}
+
+/* carritos */
+
+table {
+	border: 1px solid black;
+	text-align:left;
+	width: 800px;
+	margin-left: 400px;
+	background-color: rgb(192, 192, 192);
+	
+}
+.tablaPago{
+	border: 1px solid black;
+	text-align:left;
+	width: 400px;
+	height: 300px;
+	margin-left: 550px;
+	
+}
+
+.border{
+	border: 1px solid black;	
+}
+.siguiente{
+	text-align: center;	
+}
+
+/* Cabecera*/
+
+.contenedorMenu {
+	background-color: rgb(28, 28, 28);
+	height: 85px;
+	
+	
+}
+.enlaces{	
+	
+	text-decoration:none;	 	 
+	color: rgb(255, 255, 0);
+	display:inline;	
+	padding-left:10px;
+    padding-right:10px;
+    font-size: 25px ;
+	}
+
+.enlaces__item:hover{
+	color: rgb(255, 255, 0); 
+	text-decoration:none;
+
+}
+.logotipo{
+	
+	height: 100%;
+	}
+	
+.iconoCarrito{
+	background-color: black;	
+	border-radius: 50%;
+}
+	
+.iconoCarritoHover:hover{
+	background-color: rgb(255, 255, 0);	
+}
+.iconoCarritofocus:focus{
+	background-color: rgb(0, 255, 0);	
+}

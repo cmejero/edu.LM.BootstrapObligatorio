@@ -4,10 +4,7 @@
 
 .filaMedio{
 	background-color: rgb(32, 32, 32);
-	
 }
-
-
 
 .rojo {
 	background-color: rgb(0, 0, 83);
@@ -19,8 +16,8 @@
 }
 
 .rosa {
-	
-	color: rgb(255, 128, 192);
+
+	color: rgb(255, 255, 0);
 	font-size: 40px;
 	text-align: left;
 	height: 60px;
@@ -39,11 +36,12 @@
 }
 
 .azul {
-	
 	height: 200px;
+	/*height: 300px;*/
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
+	/*color: white;*/
 	
 }
 
@@ -98,7 +96,7 @@ table {
 .enlaces{	
 	
 	text-decoration:none;	 	 
-	color: rgb(255, 255, 0);
+	color: rgb(192, 192, 192);
 	display:inline;	
 	padding-left:10px;
     padding-right:10px;
@@ -153,9 +151,13 @@ table {
 .letraNJuego{
 	font-size: 14px;
 	color: white;
+	/*text-align: center;*/
 }
 .precio{
 	text-align: right;
 	float: right;
 	font-size: 20px;
+}
+.margen{
+	margin-top:560px;
 }

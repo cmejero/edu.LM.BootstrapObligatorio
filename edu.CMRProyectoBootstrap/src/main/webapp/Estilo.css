@@ -3,14 +3,14 @@
 /*contenedores*/
 
 .filaMedio{
-	background-color: rgb(48, 48, 48);
+	background-color: rgb(32, 32, 32);
 	
 }
 
 
 
 .rojo {
-	background-color: rgb(0, 0, 22);
+	background-color: rgb(0, 0, 83);
 }
 
 .carousel {
@@ -20,7 +20,7 @@
 
 .rosa {
 	
-	color: rgb(164, 164, 164);
+	color: rgb(255, 128, 192);
 	font-size: 40px;
 	text-align: left;
 	height: 60px;
@@ -31,23 +31,24 @@
 }
 
 .imagenesPagPrin {
-	background-color: rgb(0, 0, 255);
-	height: 300px;
+	
+	height: 250px;
 	margin-left: 10px;
 	margin-right: 10px;	
 	margin-top: 10px;
 }
 
 .azul {
-	background-color: rgb(0, 0, 255);
-	height: 225px;
+	
+	height: 200px;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
+	
 }
 
 .nombreJuego {
-	background-color: rgb(0, 255, 255);
+	
 	height: 40px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -89,7 +90,7 @@ table {
 /* Cabecera*/
 
 .contenedorMenu {
-	background-color: rgb(28, 28, 28);
+	background-color: rgb(20, 20, 20);
 	height: 85px;
 	
 	
@@ -118,10 +119,43 @@ table {
 	background-color: black;	
 	border-radius: 50%;
 }
+.imagenCarritoPequenio{
+	width: 100%;
+	height: 100%;
+		
+}
+
+.iconoCarritoPequenio{
+	background-color: rgb(36, 36, 36);
+	border-radius: 50%;
+	height: 35px;
+	width: 45px;
+}
+
 	
 .iconoCarritoHover:hover{
-	background-color: rgb(255, 255, 0);	
+	background-color: rgb(255, 255, 74);	
 }
 .iconoCarritofocus:focus{
 	background-color: rgb(0, 255, 0);	
+}
+.bordeBajo{
+	border: 2px solid solid solid none white;
+}
+
+/*Imagenes*/
+.imagenes{
+	width: 100%;
+	height: 100%;
+	border: 2px solid rgb(187, 187, 187);
+	border-radius: 5% 5% 5% 5%;
+}
+.letraNJuego{
+	font-size: 14px;
+	color: white;
+}
+.precio{
+	text-align: right;
+	float: right;
+	font-size: 20px;
 }

@@ -2,51 +2,144 @@
 
 /*contenedores*/
 
-.filaMedio{
+.filaMedio {
 	background-color: rgb(32, 32, 32);
+
 }
 
-.rojo {
-	background-color: rgb(0, 0, 83);
-}
 
-.carousel {
+.carouselCMR {
 	background-color: yellow;
-	height: 450px
+	height: 600px;
+	width: auto;
 }
 
-.rosa {
+.imagenCarousel {
+	height: 95%;
+	width: 95%;
+}
 
-	color: rgb(255, 255, 0);
+.seccion {
+
+	color: rgb(192, 192, 192);
 	font-size: 40px;
 	text-align: left;
 	height: 60px;
 	margin-bottom: 10px;
 }
-.rosaHover:hover{
-	color: white;
+
+.seccionSm {
+
+	color: rgb(192, 192, 192);
+	font-size: 30px;
+	text-align: left;
+	height: 60px;
+	margin-bottom: 10px;
 }
+
+.seccionXs {
+
+	color: rgb(192, 192, 192);
+	font-size: 20px;
+	text-align: left;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+
+
+
 
 .imagenesPagPrin {
-	
-	height: 250px;
-	margin-left: 10px;
-	margin-right: 10px;	
-	margin-top: 10px;
-}
 
-.azul {
-	height: 200px;
-	/*height: 300px;*/
+
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
-	/*color: white;*/
-	
+	padding: 20px;
 }
 
+.imagenesPagPrin:hover {
+	transform: scale(1.2);
+}
+
+/*Contenedores juegos plataforma*/
+.azul {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: white;
+
+}
+
+.azul:hover {
+	transform: scale(1.1);
+}
+
+.imagenCarritoPequenio {
+	width: 100%;
+	height: 100%;
+}
+
+.iconoCarritoPequenio {
+	background-color: rgb(36, 36, 36);
+	border-radius: 50%;
+	height: 35px;
+	width: 45px;
+
+}
+
+.iconoCarritoPequenioXs {
+	background-color: rgb(36, 36, 36);
+	border-radius: 50%;
+	height: 30px;
+	width: 40px;
+}
+
+.iconoCarritoHover:hover {
+	background-color: rgb(192, 192, 192);
+}
+
+.iconoCarritofocus:focus {
+	background-color: rgb(0, 255, 0);
+}
+
+/*MenuVertical*/
+
+.contenedorMV {
+	background-color: rgb(0, 0, 83);
+}
+
+.contenedorMVXbox {
+	background-color: rgb(0, 74, 00);
+}
+
+.letraMenuLateral {
+	color: rgb(192, 192, 192);
+	text-align: left;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.letraMenuLateralSm {
+	color: rgb(192, 192, 192);
+	text-align: left;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.letraMenuLateralXs {
+	color: rgb(192, 192, 192);
+	text-align: left;
+	text-decoration: none;
+	font-size: 7px;
+}
+
+
+
+
 .nombreJuego {
-	
+
 	height: 40px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -54,110 +147,172 @@
 	text-align: left;
 }
 
-.verde2 {
-	background-color: rgb(0, 255, 0);
-	height: 150px;
-}
 
 /* carritos */
 
 table {
 	border: 1px solid black;
-	text-align:left;
+	text-align: left;
 	width: 800px;
 	margin-left: 400px;
 	background-color: rgb(192, 192, 192);
-	
+
 }
-.tablaPago{
+
+.tablaPago {
 	border: 1px solid black;
-	text-align:left;
+	text-align: left;
 	width: 400px;
 	height: 300px;
 	margin-left: 550px;
-	
+
 }
 
-.border{
-	border: 1px solid black;	
+.border {
+	border: 1px solid black;
 }
-.siguiente{
-	text-align: center;	
+
+.siguiente {
+	text-align: center;
 }
 
 /* Cabecera*/
+.blancoFijo {
+
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+
+}
+
+.blancoFijoSm {
+
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+}
 
 .contenedorMenu {
 	background-color: rgb(20, 20, 20);
 	height: 85px;
-	
-	
+	padding: 15px;
+
+
 }
-.enlaces{	
-	
-	text-decoration:none;	 	 
+
+.enlaces {
+
+	text-decoration: none;
 	color: rgb(192, 192, 192);
-	display:inline;	
-	padding-left:10px;
-    padding-right:10px;
-    font-size: 25px ;
-	}
-
-.enlaces__item:hover{
-	color: rgb(255, 255, 0); 
-	text-decoration:none;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
 
 }
-.logotipo{
+
+.enlacesSm {
+
+	text-decoration: none;
+	color: rgb(192, 192, 192);
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+
+.enlaces__item:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+
+}
+
+.menuDesplegable {
+	background-color: rgb(50, 50, 50);
+
+}
+
+.logotipo {
 	
 	height: 100%;
-	}
-	
-.iconoCarrito{
-	background-color: black;	
-	border-radius: 50%;
-}
-.imagenCarritoPequenio{
-	width: 100%;
-	height: 100%;
-		
 }
 
-.iconoCarritoPequenio{
-	background-color: rgb(36, 36, 36);
+.iconoCarrito {
+	background-color: black;
 	border-radius: 50%;
-	height: 35px;
-	width: 45px;
 }
 
-	
-.iconoCarritoHover:hover{
-	background-color: rgb(255, 255, 74);	
-}
-.iconoCarritofocus:focus{
-	background-color: rgb(0, 255, 0);	
-}
-.bordeBajo{
+.bordeBajo {
 	border: 2px solid solid solid none white;
 }
 
 /*Imagenes*/
-.imagenes{
+.imagenes {
 	width: 100%;
 	height: 100%;
 	border: 2px solid rgb(187, 187, 187);
 	border-radius: 5% 5% 5% 5%;
 }
-.letraNJuego{
+
+.letraNJuego {
 	font-size: 14px;
 	color: white;
-	/*text-align: center;*/
+	margin-top: 8px;
+	text-align: left;
 }
-.precio{
+
+.letraModoJuego {
+	font-size: 20px;
+	color: white;
+	margin-top: 8px;
+	text-align: center;
+}
+
+.letraModoJuegoXs {
+	font-size: 15px;
+	color: white;
+	margin-top: 8px;
+	text-align: center;
+}
+
+.precio {
 	text-align: right;
 	float: right;
-	font-size: 20px;
+	font-size: 17px;
+	margin-top: 5px;
 }
-.margen{
-	margin-top:560px;
+
+.margen {
+	margin-top: 560px;
+}
+
+/*pie de pagina*/
+.piePagina {
+	background-color: rgb(20, 20, 20);
+	height: 110%;
+
+}
+
+.letraPP {
+	color: rgb(192, 192, 192);
+	text-align: center;
+	margin-bottom: 15px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.letraPPSm {
+	color: rgb(192, 192, 192);
+	text-align: center;
+	margin-bottom: 15px;
+	text-decoration: none;
+	font-size: 12px;
+
 }

@@ -4,23 +4,9 @@
 
 .filaMedio {
 	background-color: rgb(32, 32, 32);
-
-}
-
-
-.carouselCMR {
-	background-color: yellow;
-	height: 600px;
-	width: auto;
-}
-
-.imagenCarousel {
-	height: 95%;
-	width: 95%;
 }
 
 .seccion {
-
 	color: rgb(192, 192, 192);
 	font-size: 40px;
 	text-align: left;
@@ -29,7 +15,6 @@
 }
 
 .seccionSm {
-
 	color: rgb(192, 192, 192);
 	font-size: 30px;
 	text-align: left;
@@ -46,13 +31,17 @@
 	margin-bottom: 10px;
 }
 
+/*carousel*/
+.carouselCMR {
+	background-color: rgb(255, 255, 255);
+}
 
-
-
+.imagenCarousel {
+	height: 95%;
+	width: 95%;
+}
 
 .imagenesPagPrin {
-
-
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
@@ -97,7 +86,7 @@
 }
 
 .iconoCarritoHover:hover {
-	background-color: rgb(192, 192, 192);
+	background-color: rgb(210, 210, 210);
 }
 
 .iconoCarritofocus:focus {
@@ -135,9 +124,6 @@
 	font-size: 7px;
 }
 
-
-
-
 .nombreJuego {
 
 	height: 40px;
@@ -147,34 +133,11 @@
 	text-align: left;
 }
 
-
-/* carritos */
-
-table {
-	border: 1px solid black;
-	text-align: left;
-	width: 800px;
-	margin-left: 400px;
-	background-color: rgb(192, 192, 192);
-
-}
-
-.tablaPago {
-	border: 1px solid black;
-	text-align: left;
-	width: 400px;
-	height: 300px;
-	margin-left: 550px;
-
-}
-
 .border {
 	border: 1px solid black;
 }
 
-.siguiente {
-	text-align: center;
-}
+
 
 /* Cabecera*/
 .blancoFijo {
@@ -240,7 +203,7 @@ table {
 }
 
 .logotipo {
-	
+
 	height: 100%;
 }
 
@@ -253,7 +216,7 @@ table {
 	border: 2px solid solid solid none white;
 }
 
-/*Imagenes*/
+/*contenedores plataforma de juegos*/
 .imagenes {
 	width: 100%;
 	height: 100%;
@@ -289,9 +252,57 @@ table {
 	margin-top: 5px;
 }
 
-.margen {
-	margin-top: 560px;
+
+
+/*formulario*/
+table {
+	border: 1px solid black;
+	text-align: left;
+
+	background-color: rgb(201, 201, 201);
+	margin-top: 0.5%;
+	
 }
+
+th {
+
+	text-align: center;
+	background-color: rgb(128, 128, 128);
+	padding: 1.5%;
+	text-decoration: underline;
+}
+
+tr {
+	padding: 0.5%;
+
+}
+
+td {
+	padding: 0.5%;
+	
+
+}
+
+label {
+	width: 100%;
+
+}
+
+.formulario1 {
+	padding: 100px;
+}
+
+.tablaPago {
+
+	text-align: center;
+
+
+}
+
+.siguiente {
+	text-align: center;
+}
+
 
 /*pie de pagina*/
 .piePagina {

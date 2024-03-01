@@ -8,26 +8,26 @@
 
 .seccion {
 	color: rgb(192, 192, 192);
-	font-size: 40px;
+	font-size: 30px;
 	text-align: left;
-	height: 60px;
+	
 	margin-bottom: 10px;
 }
 
 .seccionSm {
 	color: rgb(192, 192, 192);
-	font-size: 30px;
+	font-size: 24px;
 	text-align: left;
-	height: 60px;
+	
 	margin-bottom: 10px;
 }
 
 .seccionXs {
 
 	color: rgb(192, 192, 192);
-	font-size: 20px;
+	font-size: 15px;
 	text-align: left;
-	height: 30px;
+	
 	margin-bottom: 10px;
 }
 
@@ -256,6 +256,15 @@
 	text-align: left;
 }
 
+.bordeCarritoPrincipal{
+	padding-left: 13%;
+	padding-right: 37%;
+	padding-top: 3%;
+}
+.contenedoresCPR{
+	background-color: rgb(32, 32, 32);
+	text-align: left;
+}
 
 /*formulario*/
 table {
